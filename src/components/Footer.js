@@ -33,7 +33,7 @@ export default function Footer() {
               <div class="grid grid-cols-2 gap-8 sm:gap-8 sm:grid-cols-3 ">
                 <div>
                   <h2 class="mb-6 text-sm font-semibold text-white  dark:text-white">
-                    Get in Touch
+                    Get in Touch as soon
                   </h2>
                   <ul class="text-white font-medium">
                     <li class="mb-4">
