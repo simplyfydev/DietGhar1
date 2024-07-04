@@ -1,4 +1,5 @@
 "use client";
+import { useState, useRef } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
@@ -11,8 +12,29 @@ import Shalani from "@/assets/ShalaniReview.png";
 import Annu from "@/assets/AnnuReview.png";
 import Amita from "@/assets/AmitaReview.png";
 import { FaQuoteLeft } from "react-icons/fa";
+import { IoChevronForwardCircle } from "react-icons/io5";
+import { IoChevronBackCircle } from "react-icons/io5";
+import { FcGoogle } from "react-icons/fc";
 
 export default function TestimonialCarousel() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const carouselRef = useRef(null);
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0
+        ? carouselRef.current.props.children.length - 1
+        : prevIndex - 1
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === carouselRef.current.props.children.length - 1
+        ? 0
+        : prevIndex + 1
+    );
+  };
   return (
     <section className="bg-[#ffffff] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,12 +42,15 @@ export default function TestimonialCarousel() {
           Listen from our Clients!
         </h2>
         <Carousel
-          showArrows={true}
+          ref={carouselRef}
+          showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
           autoPlay={true}
           interval={4000}
           showStatus={false}
+          selectedItem={currentIndex}
+          onChange={(index) => setCurrentIndex(index)}
         >
           <div className="flex flex-col md:flex-row  bg-white rounded-lg shadow-lg p-4">
             <div className="flex border border-[#95BB3A] rounded-xl p-4">
@@ -80,10 +105,12 @@ export default function TestimonialCarousel() {
                     </p>
                     <p className="mt-4">
                       {" "}
-                      Surprisingly I have lost 4.5 Kgs in a month and that too without any
-                      compromising on my daily needs. 
+                      Surprisingly I have lost 4.5 Kgs in a month and that too
+                      without any compromising on my daily needs.
                     </p>
-                    <p className="mt-4">Thanks&#x2c; DietGhar&#x2c; truly a Gem.</p>
+                    <p className="mt-4">
+                      Thanks&#x2c; DietGhar&#x2c; truly a Gem.
+                    </p>
                   </h1>
                 </div>
 
@@ -121,7 +148,7 @@ export default function TestimonialCarousel() {
                 </div>
 
                 <p className="text-[#637F22] text-left text-2xl font-semibold mt-4">
-                Amita Narula
+                  Amita Narula
                 </p>
               </div>
             </div>
@@ -222,7 +249,7 @@ export default function TestimonialCarousel() {
                 </div>
 
                 <p className="text-[#637F22] text-left text-2xl font-semibold mt-4">
-                Garima Taneja
+                  Garima Taneja
                 </p>
               </div>
             </div>
@@ -307,6 +334,28 @@ export default function TestimonialCarousel() {
             </div>
           </div>
         </Carousel>
+        <div className="flex justify-center mt-8">
+          <button
+            className="text-black rounded-full mx-2 text-4xl"
+            onClick={handlePrev}
+          >
+            <IoChevronBackCircle />
+          </button>
+          <button
+            className="text-black rounded-full mx-2 text-4xl"
+            onClick={handleNext}
+          >
+            <IoChevronForwardCircle />
+          </button>
+        </div>
+
+        <div class="flex justify-center mt-8">
+          <button className="flex bg-[#9AC435] text-white rounded-full px-6 py-3 hover:bg-[#9AC435] transition border-2 shadow-lg border-white">
+            Review Us on Google
+            <FcGoogle className="text-xl ml-2 mt-[2px]" />
+          </button>
+        </div>
+        
       </div>
     </section>
   );
