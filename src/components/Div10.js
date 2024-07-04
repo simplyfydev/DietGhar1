@@ -80,8 +80,8 @@ export default function TestimonialCarousel() {
                     </p>
                     <p className="mt-4">
                       {" "}
-                      I have lost 4.5 Kgs in a month and that too without
-                      compromising on my daily needs.
+                      Surprisingly I have lost 4.5 Kgs in a month and that too without any
+                      compromising on my daily needs. 
                     </p>
                     <p className="mt-4">Thanks&#x2c; DietGhar&#x2c; truly a Gem.</p>
                   </h1>
