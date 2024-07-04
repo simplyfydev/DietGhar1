@@ -47,10 +47,11 @@ export default function TestimonialCarousel() {
           showThumbs={false}
           infiniteLoop={true}
           autoPlay={true}
-          interval={4000}
+          interval={3000}
           showStatus={false}
           selectedItem={currentIndex}
           onChange={(index) => setCurrentIndex(index)}
+          showIndicators={false}
         >
           <div className="flex flex-col md:flex-row  bg-white rounded-lg shadow-lg p-4">
             <div className="flex border border-[#95BB3A] rounded-xl p-4">
