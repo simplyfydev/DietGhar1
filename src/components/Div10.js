@@ -10,7 +10,7 @@ import Rina from "@/assets/RinaReview.png";
 import Shalani from "@/assets/ShalaniReview.png";
 import { FaQuoteLeft } from "react-icons/fa";
 
-export default function Div10() {
+export default function TestimonialCarousel() {
   return (
     <section className="bg-[#ffffff] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,11 +35,11 @@ export default function Div10() {
                   <h1 className="text-gray-600 text-left">
                     <p className=" flex leading-6 text-xl">
                       <FaQuoteLeft className="text-green-200 h-4 w-4 mr-2" />
-                      Hello,
+                      Hello&#x2c;
                     </p>
                     <p className="mt-4">
                       {" "}
-                      I am specially sending this message to say thank you.
+                      I specially sending this message to say thank you.
                     </p>
                     <p className="mt-4">
                       I started my journey with DietGhar approximately 45 days
@@ -47,10 +47,10 @@ export default function Div10() {
                       team support and diet plan. The way they give diet plans
                       which are very easy to follow. I never feel hungry with
                       loads of variety and the kitchen planner is always handy
-                      as I don't need to think what needs to be cooked.
+                      as I don&#x27;t need to think what needs to be cooked.
                     </p>
                     <p className="mt-4">
-                      Actually, Thank you is not enough for this...
+                      Actually&#x2c; Thank you is not enough for this...
                     </p>
                     <p className="mt-4">
                       I will definitely refer DietGhar to my Friends & Family.
@@ -74,11 +74,11 @@ export default function Div10() {
                   <h1 className="text-gray-600 text-left">
                     <p className=" flex leading-6 text-xl">
                       <FaQuoteLeft className="text-green-200 h-4 w-4 mr-2" />
-                      Hi,
+                      Hi&#x2c;
                     </p>
                     <p className="mt-4">
                       {" "}
-                      I'm so happy to be a part of DietGhar.
+                      I&#x27;m so happy to be a part of DietGhar.
                     </p>
                     <p className="mt-4">
                       Have reduced 10 kgs so far along with overall inch loss
@@ -107,22 +107,22 @@ export default function Div10() {
                       I am beyond grateful to DietGhar for their marvellous job
                       in personalizing my diet plan and supporting me throughout
                       my weight loss journey. They crafted a plan that perfectly
-                      suited my needs, and their constant guidance and
+                      suited my needs&#x2c; and their constant guidance and
                       encouragement made all the difference. Whenever I had a
-                      question or needed motivation, they were just a message or
-                      call away, always ready to help like a true friend. Their
+                      question or needed motivation&#x2c; they were just a message or
+                      call away&#x2c; always ready to help like a true friend. Their
                       unwavering support and genuine care helped me shed 300
-                      kgs, taking me from 92 kg to 62 kg.
+                      kgs&#x2c; taking me from 92 kg to 62 kg.
                     </p>
                     <p className="mt-4">
                       {" "}
                       I am associated with DietGhar from past 6 yrs & I must
                       tell the journey was full of ups and down but with their
                       constant support I was able to achieve which I never
-                      thought I'll be able to do otherwise.
+                      thought I&#x27;ll be able to do otherwise.
                     </p>
                     <p className="mt-4 mb-4">
-                      DietGhar’s dedication and expertise transformed my life,
+                      DietGhar&#x27;s dedication and expertise transformed my life&#x2c;
                       and I wholeheartedly recommend them to anyone looking to
                       embark on a successful and sustainable weight loss
                       journey.
@@ -174,14 +174,14 @@ export default function Div10() {
                   <h1 className="text-gray-600 text-left">
                     <p className=" flex leading-6 text-xl">
                       <FaQuoteLeft className="text-green-200 h-4 w-4 mr-2" />
-                      Hi,
+                      Hi&#x2c;
                     </p>
                     <p className="mt-4">
                       {" "}
                       Sharing my 7months journey with DietGhar.
                     </p>
                     <p className="mt-4">
-                      Due to my busy working schedule, I could not get any time
+                      Due to my busy working schedule&#x2c; I could not get any time
                       to think about my health. But i started feeling lethargic
                       and even pain in legs.
                     </p>
@@ -213,13 +213,13 @@ export default function Div10() {
                   <h1 className="text-gray-600 text-left">
                     <p className=" flex leading-6">
                       I am thrilled to share my incredible journey with
-                      DIETGHAR! Over the past 7 months, with their absolute
-                      personalized touch, I managed to reduce my weight from 81
-                      kg to 61 kg, a total loss of 20 kgs. Their unwavering
-                      support, tailored diet plans, and constant motivation were
+                      DIETGHAR! Over the past 7 months&#x2c; with their absolute
+                      personalized touch&#x2c; I managed to reduce my weight from 81
+                      kg to 61 kg&#x2c; a total loss of 20 kgs. Their unwavering
+                      support&#x2c; tailored diet plans&#x2c; and constant motivation were
                       key to my success. DIETGHAR team understood my needs and
-                      lifestyle, making the whole process enjoyable and
-                      sustainable. I never felt alone in this journey, and their
+                      lifestyle&#x2c; making the whole process enjoyable and
+                      sustainable. I never felt alone in this journey&#x2c; and their
                       expertise made all the difference.
                     </p>
                     <p className="mt-4">
@@ -228,7 +228,7 @@ export default function Div10() {
                     </p>
                     <p className="mt-4">
                       All my clothes are loose from XXL to M or S. I want to
-                      loose more, want to see me in between 55-60 Kgs. Your diet
+                      loose more&#x2c; want to see me in between 55-60 Kgs. Your diet
                       plan will surely make my dream come true. I highly
                       recommend DIETGHAR for anyone looking to transform their
                       health and life positively!
