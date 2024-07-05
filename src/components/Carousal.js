@@ -232,12 +232,8 @@ export default function Carousal() {
                             </div>
                         </header>
                     </div>
-
                 </div>
-
             </article>
-            
-            
         </>
     )
 }
