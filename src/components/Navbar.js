@@ -5,7 +5,6 @@ import Image from "next/image";
 import logo from "@/assets/DietGharlogo.png";
 import profilelogo from "@/assets/ProfileNavbar.png";
 export default function Navbar() {
-  
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -119,21 +118,17 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-              <a
-              href="#"
-              className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-            >
-              <button
-                type="button"
-                class="flex text-white text-lg bg-[#95BB3A] hover:bg-[#95BB3A] focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-[#95BB3A] dark:hover:bg-[#95BB3A] dark:focus:ring-blue-800"
-              >
-                <Image src={profilelogo} className="w-6 h-6 mr-2" />
-                My Account
-              </button>
-            </a>
+                <a className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">
+                  <button
+                    type="button"
+                    class="flex text-white bg-[#95BB3A] hover:bg-[#95BB3A] focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-[#95BB3A] dark:hover:bg-[#95BB3A] dark:focus:ring-blue-800"
+                  >
+                    <Image src={profilelogo} className="w-6 h-6 mr-2" />
+                    My Account
+                  </button>
+                </a>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>
