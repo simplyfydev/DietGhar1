@@ -6,7 +6,7 @@ import Carousal from "@/components/Carousal";
 import ReviewButton from "@/components/ReviewButton";
 import Features from "@/components/Features";
 import Carousal1 from "@/components/Carousal1";
-// import Expectation from "@/components/Expectation";
+import Expectation from "@/components/Expectation";
 
 export default function Home() {
   return (
