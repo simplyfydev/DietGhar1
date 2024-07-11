@@ -6,14 +6,17 @@ import Carousal from "@/components/Carousal";
 import ReviewButton from "@/components/ReviewButton";
 import Features from "@/components/Features";
 import Carousal1 from "@/components/Carousal1";
+import FirstCarousal from "@/components/FirstCarousal";
 // import Expectation from "@/components/Expectation";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+     
       {/* <Expectation/> */}
       <Div1 />
+      <FirstCarousal/>
       <div className="bg-white">
         <Carousal1 />
       </div>
