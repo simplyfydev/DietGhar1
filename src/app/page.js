@@ -7,14 +7,14 @@ import ReviewButton from "@/components/ReviewButton";
 import Features from "@/components/Features";
 import Carousal1 from "@/components/Carousal1";
 import FirstCarousal from "@/components/FirstCarousal";
-// import Expectation from "@/components/Expectation";
+import Expectation from "@/components/Expectation";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
      
-      {/* <Expectation/> */}
+      
       <Div1 />
       <FirstCarousal/>
       <div className="bg-white">
@@ -22,6 +22,7 @@ export default function Home() {
       </div>
       <Features />
       <Div6 />
+      <Expectation/>
       <main className="grid content-center overflow-hidden gap-4 w-full text-navy bg-white">
         <Carousal />
       </main>
