@@ -27,10 +27,10 @@ export default function Features() {
       </div>
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-between text-4xl mb-8">
+          {/* <div className="flex justify-between text-4xl mb-8">
             <Image src={natural} className="w-33 h-24" />
             <Image src={food} className="w-28 h-24" />
-          </div>
+          </div> */}
           <div className="mb-8">
             <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl">
               <span className="relative inline-block">

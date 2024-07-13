@@ -84,10 +84,10 @@ export default function FirstCarousal() {
           <div className="relative flex w-full text-black flex-col md:flex-row bg-white rounded-lg shadow-lg p-4">
             <div className="md:w-[60%] p-4 flex flex-col">
               <h2 className="text-2xl font-semibold font-Redressed text-left text-brown-600">
-                Hair Care Pack For Healthy and Dashing Hairs
+              Monthly Cycle tracker
               </h2>
               <div>
-                <p className="mb-4 text-left">
+                <p className="mb-4 mt-4 text-left">
                   Lorem ipsum dolor sit amet consectetur. Volutpat ac tincidunt
                   risus mollis lectus odio et nunc varius. Arcu gravida
                   imperdiet pharetra viverra tempor. Auctor tristique tellus
@@ -98,7 +98,7 @@ export default function FirstCarousal() {
                     Know more
                     <PiGreaterThan className="h-6 ml-4" />
                   </button>
-                  <p className="text-gray-500 text-left">www.dietghar.com</p>
+                  <p className="text-gray-500 mt-24 text-left">www.dietghar.com</p>
                 </div>
               </div>
             </div>
@@ -111,10 +111,10 @@ export default function FirstCarousal() {
           <div className="relative flex w-full text-black flex-col md:flex-row bg-white rounded-lg shadow-lg p-4">
             <div className="md:w-[60%] p-4 flex flex-col">
               <h2 className="text-2xl font-semibold font-Redressed text-left text-brown-600">
-                Hair Care Pack For Healthy and Dashing Hairs
+              Calories Counter
               </h2>
               <div>
-                <p className="mb-4 text-left">
+                <p className="mb-4 mt-4 text-left">
                   Lorem ipsum dolor sit amet consectetur. Volutpat ac tincidunt
                   risus mollis lectus odio et nunc varius. Arcu gravida
                   imperdiet pharetra viverra tempor. Auctor tristique tellus
@@ -125,7 +125,7 @@ export default function FirstCarousal() {
                     Know more
                     <PiGreaterThan className="h-6 ml-4" />
                   </button>
-                  <p className="text-gray-500 text-left">www.dietghar.com</p>
+                  <p className="text-gray-500 mt-24 text-left">www.dietghar.com</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function FirstCarousal() {
           <div className="relative flex w-full text-black flex-col md:flex-row bg-white rounded-lg shadow-lg p-4">
             <div className="md:w-[60%] p-4 flex flex-col ">
               <h2 className="text-2xl font-semibold font-Redressed text-left text-brown-600 mb-4">
-                Hair Care Pack For Healthy and Dashing Hairs
+              Water Intake Reminder
               </h2>
               <div>
                 <p className="mb-4 text-left">
@@ -152,7 +152,7 @@ export default function FirstCarousal() {
                     Know more
                     <PiGreaterThan className="h-6 ml-4" />
                   </button>
-                  <p className="text-gray-500 text-left">www.dietghar.com</p>
+                  <p className="text-gray-500 text-left mt-24">www.dietghar.com</p>
                 </div>
               </div>
             </div>

@@ -8,28 +8,28 @@ import Features from "@/components/Features";
 import Carousal1 from "@/components/Carousal1";
 import FirstCarousal from "@/components/FirstCarousal";
 import Expectation from "@/components/Expectation";
+import HoverDiv from "@/components/HoverDiv";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-     
       
       <Div1 />
-      <FirstCarousal/>
+      <FirstCarousal />
       <div className="bg-white">
         <Carousal1 />
       </div>
       <Features />
       <Div6 />
-      <Expectation/>
+      <Expectation />
+      <HoverDiv/>
       <main className="grid content-center overflow-hidden gap-4 w-full text-navy bg-white">
         <Carousal />
       </main>
       <div className="bg-white py-12">
         <ReviewButton />
       </div>
-      
       <Footer />
     </div>
   );
