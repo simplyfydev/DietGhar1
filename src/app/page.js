@@ -9,6 +9,7 @@ import Carousal1 from "@/components/Carousal1";
 import FirstCarousal from "@/components/FirstCarousal";
 import Expectation from "@/components/Expectation";
 import HoverDiv from "@/components/HoverDiv";
+import LastDiv from "@/components/LastDiv";
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
       <div className="bg-white py-12">
         <ReviewButton />
       </div>
+      <div className="bg-white">
+      <LastDiv/>
+      </div>
+     
       <Footer />
     </div>
   );
