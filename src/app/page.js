@@ -25,11 +25,10 @@ export default function Home() {
       <Div6 />
       <Expectation />
       <HoverDiv/>
-      <PricingDiv/>
+      {/* <PricingDiv/> */}
       <main className="grid content-center overflow-hidden gap-4 w-full text-navy bg-white">
         <Carousal />
       </main>
-      
       <div className="bg-white py-12">
         <ReviewButton />
       </div>

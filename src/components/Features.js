@@ -106,7 +106,7 @@ export default function Features() {
             <div className="flex flex-col items-center">
               <Image src={f6} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
-                Customized food
+                Customize Food
               </h3>
               <p className="mt-2 text-base text-gray-600">
                 Create meals that match your tastes and dietary needs. Enter
