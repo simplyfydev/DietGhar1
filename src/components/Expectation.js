@@ -23,7 +23,7 @@ export default function Expectation() {
           <div className="flex flex-col items-center">
             <div className="relative">
               <div className="justify-center">
-                <Image src={e1} alt="" className="w-14 h-24 text-white" />
+                <Image src={e1} alt="image" className="w-14 h-24 text-white" />
               </div>
             </div>
             <h3 className="justify-start mt-4 text-lg font-semibold text-green-700">
@@ -41,7 +41,7 @@ export default function Expectation() {
           <div className="flex flex-col items-center">
             <div className="relative">
               <div className="justify-center">
-                <Image src={e2} alt="" className="w-14 h-24 text-white" />
+                <Image src={e2} alt="image" className="w-14 h-24 text-white" />
               </div>
             </div>
             <h3 className="justify-start mt-4 text-lg font-semibold text-green-700">
@@ -59,7 +59,7 @@ export default function Expectation() {
           <div className="flex flex-col items-center">
             <div className="relative">
               <div className="justify-center">
-                <Image src={e3} alt="" className="w-14 h-24 text-white" />
+                <Image src={e3} alt="image" className="w-14 h-24 text-white" />
               </div>
             </div>
             <h3 className="justify-start mt-4 text-lg font-semibold text-green-700">

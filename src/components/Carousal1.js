@@ -68,7 +68,7 @@ export default function Carousal1() {
             <div className="flex-shrink-0 flex items-center justify-around gap-4">
               {images.map((image, index) => (
                 <header className="mx-auto" key={index}>
-                  <Image src={image} />
+                  <Image src={image} alt="image" />
                 </header>
               ))}
             </div>

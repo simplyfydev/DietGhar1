@@ -50,7 +50,7 @@ export default function Features() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex flex-col items-center">
-              <Image src={f1} />
+              <Image src={f1} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
                 Follow any eating style or create your own
               </h3>
@@ -60,7 +60,7 @@ export default function Features() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src={f2} />
+              <Image src={f2} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
                 Reduce food waste
               </h3>
@@ -71,7 +71,7 @@ export default function Features() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src={f3} />
+              <Image src={f3} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
                 Take the anxiety out of picking what to eat
               </h3>
@@ -82,7 +82,7 @@ export default function Features() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src={f4} />
+              <Image src={f4} alt="image" />
               <h3 className="text-lg font-semibold text-gray-900">
                 Home-cooked food
               </h3>
@@ -93,7 +93,7 @@ export default function Features() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src={f5} />
+              <Image src={f5} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
                 Cost effective
               </h3>
@@ -104,7 +104,7 @@ export default function Features() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src={f6} />
+              <Image src={f6} alt="image"/>
               <h3 className="text-lg font-semibold text-gray-900">
                 Customized food
               </h3>

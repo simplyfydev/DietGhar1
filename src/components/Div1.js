@@ -24,7 +24,7 @@ export default function Div1() {
         </div>
         <div className="mt-12 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
           <div className="relative">
-            <Image src={div1Image} className="w-100 h-100" />
+            <Image src={div1Image} alt="image" className="w-100 h-100" />
           </div>
         </div>
       </div>

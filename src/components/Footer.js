@@ -19,7 +19,7 @@ export default function Footer() {
     <>
       <div className="hidden lg:block">
         <div className="absolute -z-10">
-          <Image src={footer} />
+          <Image src={footer} alt="image"/>
         </div>
       </div>
       <footer className="bg-[#4A6213] bg-opacity-50">
@@ -127,12 +127,12 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <Link href="#" className="text-gray-300 ">
-                    <Image src={btn1} />
+                    <Image src={btn1} alt="image"/>
                   </Link>
                 </li>
                 <li className="ml-1">
                   <Link href="/contact" className="text-gray-300 ">
-                    <Image src={btn2} />
+                    <Image src={btn2} alt="image"/>
                   </Link>
                 </li>
               </ul>

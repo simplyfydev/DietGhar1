@@ -44,6 +44,7 @@ export default function FirstCarousal() {
             </div>
             <div className="md:ml-auto">
               <Image src={Skin2}
+              alt="image"
               className="w-72 h-80"
               />
             </div>
@@ -105,6 +106,7 @@ export default function FirstCarousal() {
             <div className="md:ml-auto">
               <Image src={Skin4}
               className="w-72 h-80"
+              alt="image"
               />
             </div>
           </div>
@@ -132,6 +134,7 @@ export default function FirstCarousal() {
             <div className="md:ml-auto">
               <Image src={Skin5}
               className="w-72 h-80"
+              alt="image"
               />
             </div>
           </div>
