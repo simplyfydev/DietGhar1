@@ -67,27 +67,27 @@ export default function PricingDiv() {
                 </div>
 
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Diet Plan
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Workout Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <RxCrossCircled className="text-3xl text-red mr-8" />
                     Customised Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Diet Recipes
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <RxCrossCircled className="text-3xl text-red mr-8" />
                     Natural Health Care
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <RxCrossCircled className="text-3xl text-red mr-8" />
                     Yoga Tips
                   </li>
@@ -122,27 +122,27 @@ export default function PricingDiv() {
                   </button>
                 </div>
                 <ul className="flex-1 p-0 mt-4 ml-5  border-0 border-gray-200">
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Diet Plan
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Workout Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Customised Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Diet Recipes
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Natural Health Care
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                     <SiTicktick className="text-3xl text-white mr-8" />
                     Yoga Tips
                   </li>
@@ -174,27 +174,27 @@ export default function PricingDiv() {
                 </div>
 
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Diet Plan
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Workout Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Customised Plans
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Diet Recipes
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <SiTicktick className="text-3xl text-green-500 mr-8" />
                     Natural Health Care
                   </li>
-                  <li className="inline-flex items-center block w-full mb-4 ml-5 font-semibold text-left border-solid">
+                  <li className="inline-flex items-center  w-full mb-4 ml-5 font-semibold text-left border-solid">
                     <RxCrossCircled className="text-3xl text-red mr-8" />
                     Yoga Tips
                   </li>
@@ -232,27 +232,27 @@ export default function PricingDiv() {
                 </button>
               </div>
               <ul className="flex-1 p-0 mt-4 ml-5  border-0 border-gray-200">
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Diet Plan
                 </li>
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Workout Plans
                 </li>
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Customised Plans
                 </li>
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Diet Recipes
                 </li>
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Natural Health Care
                 </li>
-                <li className="inline-flex items-center block w-full mb-4 ml-5 text-xl text-left border-solid">
+                <li className="inline-flex items-center  w-full mb-4 ml-5 text-xl text-left border-solid">
                   <SiTicktick className="text-3xl text-white mr-8" />
                   Yoga Tips
                 </li>
