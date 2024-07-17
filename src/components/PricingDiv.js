@@ -22,9 +22,9 @@ export default function PricingDiv() {
             Our Pricing Plans
           </h2>
           <p className="box-border mt-4 text-xl text-gray-900 border-solid sm:text-2xl">
-            "At DietGhar, we lead in promoting health with personalized diet
-            plans, valuing honesty, integrity, efficiency, and genuine care for
-            our clients."
+          &#8220;At DietGhar&#44; we lead in promoting health with personalized diet
+            plans&#44; valuing honesty, integrity&#44; efficiency&#44; and genuine care for
+            our clients.&#8221;
           </p>
 
           <div className="flex items-center mt-4">
