@@ -13,7 +13,7 @@ export default function Div1() {
             <h1 className="text-black text-3xl">the desired Destination</h1>
           </div>
           <p className="mt-4 text-lg text-gray-600">
-            Our community of beautiful clients has grown over the <br/> years, not
+            Our community of beautiful clients has grown over <br/> years, not
             only in number but also in their journey<br/> towards their{" "}
             <span className="text-[#E7281C]">desired physique</span>.
           </p>
