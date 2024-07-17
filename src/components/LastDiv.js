@@ -9,7 +9,6 @@ import img2 from "@/assets/LD2.png";
 import img3 from "@/assets/LD3.png";
 import img4 from "@/assets/LD4.png";
 import img5 from "@/assets/LD5.png";
-
 import { FaCalendarAlt } from "react-icons/fa";
 import { ImUser } from "react-icons/im";
 import { FaCommentDots } from "react-icons/fa";
@@ -64,10 +63,10 @@ const BlogPost = ({ image, date, title, description }) => {
         height={300}
       />
       <div className="flex px-4 py-4">
-        <FaCalendarAlt className="w-6 h-6 mr-1 text-[#9AC435]" />
+        <FaCalendarAlt className="w-3 h-6 mr-1 text-[#9AC435]" />
         {date} /
-        <ImUser className="w-6 h-6 mr-1 text-[#9AC435]" /> Admin /
-        <FaCommentDots className="w-6 h-6 mr-1 text-[#9AC435] ml-1" />
+        <ImUser className="w-3 h-6 mr-1 text-[#9AC435]" /> Admin /
+        <FaCommentDots className="w-3 h-6 mr-1 text-[#9AC435] ml-1" />
         Comment
       </div>
       <div className="px-6 py-4">
@@ -117,7 +116,7 @@ export default function LastDiv() {
   };
 
   return (
-    <div className="p-8 text-black">
+    <div className="p-24 text-black">
       <h1 className="text-3xl font-bold text-center mb-6">Health Reads</h1>
       <p className="text-[24px] text-center mb-4 font-medium">
         Blog posts on health, diet, weight loss and general wellness

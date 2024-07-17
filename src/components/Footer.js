@@ -138,7 +138,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="sm:flex items-center justify-center mt-28 py-3">
+          <div className="sm:flex items-center justify-center mt-20 py-3">
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-white ml-1 mr-1">
                 <p className="text-xs">Terms of Service |</p>
