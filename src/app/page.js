@@ -11,11 +11,13 @@ import Expectation from "@/components/Expectation";
 import HoverDiv from "@/components/HoverDiv";
 import LastDiv from "@/components/LastDiv";
 import PricingDiv from "@/components/PricingDiv";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      {/* <AboutUs/> */}
       <Div1 />
       <FirstCarousal />
       <div className="bg-white">
@@ -25,7 +27,7 @@ export default function Home() {
       <Div6 />
       <Expectation />
       <HoverDiv/>
-      {/* <PricingDiv/> */}
+      <PricingDiv/>
       <main className="grid content-center overflow-hidden gap-4 w-full text-navy bg-white">
         <Carousal />
       </main>
