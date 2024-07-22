@@ -24,7 +24,7 @@ export default function Page() {
               Create Your Account Today
             </h2>
             <p className="mt-4 text-lg text-gray-600 mb-24">
-              Experience DietGhar for yourself, completely risk-free, with our
+              Experience DietGhar for yourself&#44; completely risk-free&#44; with our
               30-day.
             </p>
             <div className="mt-6">
@@ -50,7 +50,7 @@ export default function Page() {
             </h2>
             <p className="box-border mt-4 text-xl text-gray-900 border-solid sm:text-2xl">
               &#8220;At DietGhar&#44; we lead in promoting health with
-              personalized diet plans&#44; valuing honesty, integrity&#44;
+              personalized diet plans&#44; valuing honesty&#44; integrity&#44;
               efficiency&#44; and genuine care for our clients.&#8221;
             </p>
 
@@ -148,7 +148,7 @@ export default function Page() {
                     </div>
 
                     <button className=" bg-[#729028] text-white h-20 w-48 px-4 py-2">
-                      <p className="text-xl font-semibold">Rs 2,999/-</p>
+                      <p className="text-xl font-semibold">Rs 2&#44;999/-</p>
                       <p>3 months</p>
                     </button>
                   </div>
@@ -199,7 +199,7 @@ export default function Page() {
                     </div>
 
                     <button className=" bg-[#729028] text-white h-20 w-58 px-8 py-2">
-                      <p className="text-xl font-semibold">1,199/-</p>
+                      <p className="text-xl font-semibold">1&#44;199/-</p>
                       <p>Per month</p>
                     </button>
                   </div>
@@ -258,7 +258,7 @@ export default function Page() {
                   </div>
 
                   <button className=" bg-[#729028] text-white h-20 w-58 px-4 py-2">
-                    <p className="text-xl font-semibold">Rs 12,000/-</p>
+                    <p className="text-xl font-semibold">Rs 12&#44;000/-</p>
                     <p>Per Year</p>
                   </button>
                 </div>
@@ -304,12 +304,12 @@ export default function Page() {
         <h2 className="text-2xl mb-8 text-[#A5A3A3]">Discover Our Approach</h2>
         <p className="text-lg ">
           We at DietGhar aim overall benefit of our clients. Along with Physical
-          health, Mental health also plays a major role in your physical
+          health&#44; Mental health also plays a major role in your physical
           well-being. Our motive is to make you feel comfortable in your own
           skin and yet motivate you to do better by amending simple dietary
           habits on regular basis. Our meal plans are completely home-based and
-          simple to cook and have no liquid, crash, Fad diets included in the
-          plan. Basic funda is to have simple "Ghar ka khana" in right portions,
+          simple to cook and have no liquid&#44; crash&#44; Fad diets included in the
+          plan. Basic funda is to have simple "Ghar ka khana" in right portions&#44;
           on right timings and yet lose weight eating and balancing everything
           possible.
         </p>
@@ -329,20 +329,23 @@ export default function Page() {
         />
         <div className="relative z-10 text-center ">
           <div className="flex justify-center space-x-24 mt-8">
-            <button className="bg-[#9AC435] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
+            <button className="bg-[#9AC435] border-2 border-white text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
               <FiUser size={24} />
               <span>Contact Us</span>
             </button>
-            <button className="bg-[#9AC435] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
+            <button className="bg-[#9AC435] border-2 border-white text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
               <FiUsers size={24} />
               <span>Explore About Us</span>
             </button>
-            <button className="bg-[#9AC435] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
+            <button className="bg-[#9AC435] border-2 border-white text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#85A32F] transition duration-200 flex items-center space-x-2">
               <FiHelpCircle size={24} />
               <span>Explore FAQs</span>
             </button>
           </div>
         </div>
+      </div>
+      <div className="h-24 bg-white">
+
       </div>
       <Footer />
     </div>
