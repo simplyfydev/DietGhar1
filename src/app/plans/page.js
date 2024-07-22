@@ -309,7 +309,7 @@ export default function Page() {
           skin and yet motivate you to do better by amending simple dietary
           habits on regular basis. Our meal plans are completely home-based and
           simple to cook and have no liquid&#44; crash&#44; Fad diets included in the
-          plan. Basic funda is to have simple "Ghar ka khana" in right portions&#44;
+          plan. Basic funda is to have simple &#34;Ghar ka khana&#34; in right portions&#44;
           on right timings and yet lose weight eating and balancing everything
           possible.
         </p>
