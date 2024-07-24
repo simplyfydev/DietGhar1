@@ -62,7 +62,7 @@ export default function HowItWorks() {
               &#x2022; Share Your Details
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Provide us with your age, weight, height, and any health
+              Provide us with your age&#44; weight&#44; height&#44; and any health
               conditions or dietary restrictions.
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function HowItWorks() {
             </h2>
             <p className="text-lg text-gray-600">
               Get a customized weekly diet plan that includes detailed meal
-              plans with calorie, fat, and carbohydrate counts.
+              plans with calorie&#44; fat&#44; and carbohydrate counts.
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function HowItWorks() {
               &#x2022; Follow Your Plan
             </h2>
             <p className="text-lg text-gray-600">
-              Enjoy stress-free eating with our easy-to-follow diet charts,
+              Enjoy stress-free eating with our easy-to-follow diet charts&#44;
               ensuring you get the right nutrition every day.
             </p>
           </div>
@@ -105,8 +105,8 @@ export default function HowItWorks() {
               &#x2022; Stay Fit and Healthy
             </h2>
             <p className="text-lg text-gray-600">
-              Focus on your overall wellness with our expert advice on diet,
-              yoga, recipes, and fitness routines.
+              Focus on your overall wellness with our expert advice on diet&#44;
+              yoga&#44; recipes&#44; and fitness routines.
             </p>
           </div>
         </div>
@@ -116,8 +116,8 @@ export default function HowItWorks() {
           How DietGhar Works
         </h1>
         <p className="text-black text-center text-lg mb-24 w-2/5 items-center justify-center mx-auto">
-          At DietGhar, we are dedicated to helping you achieve optimal health
-          and wellness through personalized diet plans. Here's how we do it:
+          At DietGhar&#44; we are dedicated to helping you achieve optimal health
+          and wellness through personalized diet plans. Here&apos;s how we do it:
         </p>
         <div className="flex h-auto w-full justify-center items-center px-24">
           <div className="w-3/4 px-24">
@@ -125,8 +125,8 @@ export default function HowItWorks() {
               &#x2022; Initial Assessment:
             </h2>
             <p className="text-lg text-gray-600">
-              We start by gathering essential information about you, including
-              your age, weight, height, and any existing health conditions or
+              We start by gathering essential information about you&#44; including
+              your age&#44; weight&#44; height&#44; and any existing health conditions or
               dietary preferences.
             </p>
           </div>
@@ -143,9 +143,9 @@ export default function HowItWorks() {
               &#x2022; Customized Diet Plan:
             </h2>
             <p className="text-lg text-gray-600">
-              Based on your details, we create a weekly diet chart that outlines
-              every meal with specific nutritional information like calories,
-              fats, carbohydrates, and more.
+              Based on your details&#44; we create a weekly diet chart that outlines
+              every meal with specific nutritional information like calories&#44;
+              fats&#44; carbohydrates&#44; and more.
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function HowItWorks() {
               &#x2022; Ease and Convenience:
             </h2>
             <p className="text-lg text-gray-600">
-              With our comprehensive meal plans, you can enjoy your food without
+              With our comprehensive meal plans&#44; you can enjoy your food without
               the hassle of planning and worrying about nutritional content. We
               handle all the details for you.
             </p>
@@ -174,7 +174,7 @@ export default function HowItWorks() {
             </h2>
             <p className="text-lg text-gray-600">
               Our services go beyond diet planning. We emphasize overall
-              well-being by incorporating yoga practices, healthy recipes, and
+              well-being by incorporating yoga practices&#44; healthy recipes&#44; and
               fitness tips into your plan.
             </p>
           </div>
