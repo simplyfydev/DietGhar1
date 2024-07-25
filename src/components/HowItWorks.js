@@ -205,7 +205,7 @@ export default function HowItWorks() {
             Atomic Habits&#44; author James Clear talks about a study in the British
             Journal of Health Psychology that showed 91% of people who wrote
             down their intention on a goal (in their case&#44; exercise) followed
-            through. This was more than double that of people who didn't write
+            through. This was more than double that of people who didn&apos;t write
             it down. DietGhar helps you set your intentions every single week by
             generating specific meal plans for you to follow!&#8221;
           </p>
