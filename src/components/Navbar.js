@@ -115,7 +115,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="plans"
                     className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
                   >
                     Plans
