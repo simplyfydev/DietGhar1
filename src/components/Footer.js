@@ -22,7 +22,7 @@ export default function Footer() {
           <Image src={footer} alt="image"/>
         </div>
       </div>
-      <footer className="bg-[#4A6213] bg-opacity-50">
+      <footer className="bg-[#4A6213] bg-opacity-60">
         <div className="container mx-auto px-4">
           <h1 className="text-white text-center font-montserrat text-3xl font-medium leading-lg py-12">
             Trusted Health and Nutrition Experts. We Provide Online Consultation

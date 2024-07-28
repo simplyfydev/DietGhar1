@@ -183,8 +183,6 @@ export default function HowItWorks() {
           </div>
         </div>
       </div>
-
-
       <div className="bg-white p-16">
         <h1 className="text-black text-center text-2xl">
           Join DietGhar today and take the first step towards a healthier&#44;
@@ -201,25 +199,45 @@ export default function HowItWorks() {
         <h1 className="text-black text-2xl">You should know</h1>
         <div className="mt-6 flex items-center justify-center">
           <p>
-          &#8220;Writing down a plan doubles the chance of success! In the book
-            Atomic Habits&#44; author James Clear talks about a study in the British
-            Journal of Health Psychology that showed 91% of people who wrote
-            down their intention on a goal (in their case&#44; exercise) followed
-            through. This was more than double that of people who didn&apos;t write
-            it down. DietGhar helps you set your intentions every single week by
-            generating specific meal plans for you to follow!&#8221;
+            &#8220;Writing down a plan doubles the chance of success! In the
+            book Atomic Habits&#44; author James Clear talks about a study in
+            the British Journal of Health Psychology that showed 91% of people
+            who wrote down their intention on a goal (in their case&#44;
+            exercise) followed through. This was more than double that of people
+            who didn&apos;t write it down. DietGhar helps you set your
+            intentions every single week by generating specific meal plans for
+            you to follow!&#8221;
           </p>
         </div>
       </div>
-      <div className="flex bg-[#F1F1F1]">
-        <div className="p-16 w-2/3">
-          <h1 className="text-2xl ">Master Your Nutrition with DietGhar</h1>
-          <p className="mr-36 text-lg mt-12">&#8220;Try DietGhar and experience the magic of personalized&#44; stress-free meal planning for a healthier&#44; happier you!&#8221;</p>
-        </div>
-        <div className="w-1/3">
-          <Image src={img8} className="w-54 h-54"/>
+      <div className="p-16">
+        <h1 className="text-2xl ">How its work:</h1>
+        <div className="flex justify-center items-center mt-12">
+          <iframe
+            width="800"
+            height="514"
+            src="https://www.youtube.com/embed/SWj-mP07VMk"
+            title="Top 6 Weight Loss Frequently Asked Questions Answered!!"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
+      <div className="flex bg-[#F1F1F1] mb-6">
+        <div className="p-16 w-2/3">
+          <h1 className="text-2xl ">Master Your Nutrition with DietGhar</h1>
+          <p className="mr-36 text-lg mt-12">
+            &#8220;Try DietGhar and experience the magic of personalized&#44;
+            stress-free meal planning for a healthier&#44; happier you!&#8221;
+          </p>
+        </div>
+        <div className="w-1/3">
+          <Image src={img8} className="w-54 h-54" />
+        </div>
+      </div>
+      
     </>
   );
 }
