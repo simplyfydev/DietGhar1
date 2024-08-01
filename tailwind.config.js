@@ -28,6 +28,25 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      keyframes: {
+        topDownBump: {
+          '0%': {
+            transform: 'translateY(-10px)',
+            opacity: '0',
+          },
+          '50%': {
+            transform: 'translateY(5px)',
+            opacity: '0.5',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
+      },
+      animation: {
+        'top-down-bump': 'topDownBump 0.5s ease-in-out forwards',
+      },
     },
   },
   plugins: [],
