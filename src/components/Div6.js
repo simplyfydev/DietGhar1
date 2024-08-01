@@ -1,4 +1,5 @@
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import "@/components/style2.css"
 export default function Home() {
   return (
     <div className="bg-[#F1F1F1] text-black p-8 flex flex-col items-center justify-center">
