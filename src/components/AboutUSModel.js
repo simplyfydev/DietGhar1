@@ -1,16 +1,16 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import AboutModel1 from '@/assets/AboutModel1.png'; // replace with the correct path to your image
-import AboutModel2 from '@/assets/AboutModel2.png'; // replace with the correct path to your image
-import AboutModel3 from '@/assets/AboutModel3.png'; // replace with the correct path to your image
-import AboutModel4 from '@/assets/AboutModel4.png'; // replace with the correct path to your image
-import BGModel from '@/assets/BGModel.png'; // replace with the correct path to your background image
+import AboutModel1 from '@/assets/AboutModel1.png';
+import AboutModel2 from '@/assets/AboutModel2.png';
+import AboutModel3 from '@/assets/AboutModel3.png';
+import AboutModel4 from '@/assets/AboutModel4.png';
+import BGModel from '@/assets/BGModel.png';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { BiUserVoice } from "react-icons/bi";
 import { AboutUSModel1 } from './AboutUSModel1';
 import { AboutUSModel2 } from './AboutUSModel2';
-import Carousal1 from './Carousal';
+// import Carousal1 from './Carousal'; // Uncomment if needed
 
 const images = [AboutModel1, AboutModel2, AboutModel3, AboutModel4];
 
@@ -42,7 +42,7 @@ const AboutUsModel = () => {
                         <div className="relative flex flex-col md:flex-row items-center">
                             <div className="w-full md:w-1/2 text-left">
                                 <h1 className="text-4xl font-bold text-black mb-12">DIETGHAR</h1>
-                                <h2 className="text-3xl font-bold text-white mb-4">Let's live healthy together</h2>
+                                <h2 className="text-3xl font-bold text-white mb-4">Let&apos;s live healthy together</h2>
                                 <p className="text-lg text-black mb-8">
                                     Not only your food, but your health should also speak out loud for you!! Eating is just a habit, so develop it towards the better.
                                 </p>
@@ -67,19 +67,19 @@ const AboutUsModel = () => {
                     </div>
                 </div>
                 <style jsx>{`
-                .opacity-0 {
-                    opacity: 0;
-                }
-                .opacity-1 {
-                    opacity: 1;
-                }
-                .scale-95 {
-                    transform: scale(0.95);
-                }
-                .scale-100 {
-                    transform: scale(1);
-                }
-            `}</style>
+                    .opacity-0 {
+                        opacity: 0;
+                    }
+                    .opacity-1 {
+                        opacity: 1;
+                    }
+                    .scale-95 {
+                        transform: scale(0.95);
+                    }
+                    .scale-100 {
+                        transform: scale(1);
+                    }
+                `}</style>
             </section>
 
             <AboutUSModel1 />
