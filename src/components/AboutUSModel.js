@@ -1,10 +1,10 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import AboutModel1 from '@/assets/AboutUs/AboutModel1.png'; // replace with the correct path to your image
-import AboutModel2 from '@/assets/AboutUs/AboutModel2.png'; // replace with the correct path to your image
-import AboutModel3 from '@/assets/AboutUs/AboutModel3.png'; // replace with the correct path to your image
-import AboutModel4 from '@/assets/AboutUs/AboutModel4.png'; // replace with the correct path to your image
+import AboutModel1 from '@/assets/AboutModel1.png'; // replace with the correct path to your image
+import AboutModel2 from '@/assets/AboutModel2.png'; // replace with the correct path to your image
+import AboutModel3 from '@/assets/AboutModel3.png'; // replace with the correct path to your image
+import AboutModel4 from '@/assets/AboutModel4.png'; // replace with the correct path to your image
 import BGModel from '@/assets/AboutUs/BGModel.png'; // replace with the correct path to your background image
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { BiUserVoice } from "react-icons/bi";
