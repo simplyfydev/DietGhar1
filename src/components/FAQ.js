@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect, useRef } from 'react';
 import Image from "next/image";
-import FAQ1 from "@/assets/FAQ1.png";
+import FAQ1 from "@/assets/FAQs.png";
 import Questions from '@/assets/Questions.png'
 import { FaSearch } from 'react-icons/fa'; // Importing the search icon from react-icons
 import FAQComponent from './FAQComponent';
@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <>
       <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(${FAQ1.src})` }}>
-        <div className="absolute inset-0 bg-green-900 bg-opacity-50 flex justify-center items-center">
+        <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center">
           <div className="text-center p-10">
             <h1 className="text-5xl font-bold text-white mb-4">
               Your Questions Answered!
