@@ -75,26 +75,10 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="how-it-works"
-                    className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  >
-                    How it works
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="aboutus"
                     className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
                   >
                     About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="contactus"
-                    className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  >
-                    Contact Us
                   </Link>
                 </li>
                 <li>
@@ -107,10 +91,10 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="blog"
+                    href="how-it-works"
                     className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
                   >
-                    Blog
+                    How it works
                   </Link>
                 </li>
                 <li>
@@ -127,6 +111,22 @@ export default function Navbar() {
                     className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
                   >
                     FAQs
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="blog"
+                    className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="contactus"
+                    className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                  >
+                    Contact Us
                   </Link>
                 </li>
               </ul>
